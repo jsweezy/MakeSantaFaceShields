@@ -34,7 +34,7 @@ need to modified then the Scripts need to be modified, the temperatures are set 
 `../Scripts/generate_layer_config_ranges_for_PrusaSlicer.pl > Metadata/Prusa_Slicer_layer_config_ranges.xml`
 
 5) Recombine the files into a single Prusa project file:\
-zip ../PrusaProjectFiles/new_project.3mf -r *
+`zip ../PrusaProjectFiles/new_project.3mf -r *`
 
 Now the new project file can be opened in Prusa Slicer and sliced. 
 
@@ -60,16 +60,16 @@ Small cylinders to seperate and support the frames have been added.  The design 
 
 ## References
 
-###National Institues of Health page for this design:\ 
+### National Institues of Health page for this design:\ 
 https://3dprint.nih.gov/discover/3dpx-013306
 
-###3DVerkstan Page:\
+### 3DVerkstan Page:\
 https://3dverkstan.se/protective-visor/
 
-###Matterhackers Page for 3DVerkstan Design:\
+### Matterhackers Page for 3DVerkstan Design:\
 https://www.matterhackers.com/store/l/protective-face-shield/sk/M7LP9Q7M
 
-###IQLess YouTube Channel
+### IQLess YouTube Channel
 OpenSCAD support idea from: https://www.youtube.com/watch?v=apcrs6d_irc\
 "Covid: Stacking Prusa RC3 and 3Dverkstan face shields Using Openscad"\
 By iqless. OpenSCAD here is a modification of his file which can be found at:\
