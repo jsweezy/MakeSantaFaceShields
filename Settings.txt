@@ -1,0 +1,26 @@
+Settings by material / manufacturer
+
+* PETG
+
+  - Overture
+    * Diameter 1.27 
+    * Bed Temp - 85/90 
+    * Nozzle - 250C
+
+  - Keene Village Plastics
+    * Stacking has been well tested on Prusa Mk3
+    * Diameter 1.25
+    * Bed Temp - 85/90 -  May need to increase to prevent delamination during printing when fan to turned to 100%
+    * Nozzle Standard - 250
+    * Nozzle Interface - 215
+    * Nozzle First Layer - 230
+    * Fan Interface - 100%
+    * Speed Interface - 3 mm/sec for perimeters, 6 mm/sec for infill
+
+* PLA 
+
+  - HatchBox
+   
+  - Matterhackers
+ 
+
