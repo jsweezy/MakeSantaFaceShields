@@ -60,13 +60,13 @@ Small cylinders to seperate and support the frames have been added.  The design 
 
 ## References
 
-### National Institues of Health page for this design:\ 
+### National Institues of Health page for this design:
 https://3dprint.nih.gov/discover/3dpx-013306
 
-### 3DVerkstan Page:\
+### 3DVerkstan Page:
 https://3dverkstan.se/protective-visor/
 
-### Matterhackers Page for 3DVerkstan Design:\
+### Matterhackers Page for 3DVerkstan Design:
 https://www.matterhackers.com/store/l/protective-face-shield/sk/M7LP9Q7M
 
 ### IQLess YouTube Channel
