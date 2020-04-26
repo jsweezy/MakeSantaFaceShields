@@ -1,5 +1,7 @@
 #!/usr/bin/perl
-#
+
+$num =20;
+
 # first empty layer - layer height=$d1
 # interface layer - layer height=$d2, temp=$t1
 # second empty layer - layer height=$d3
@@ -26,7 +28,7 @@ print  <<EOFA;
  <object id="1">
 EOFA
 
-for (my $p = 1; $p < 8; $p++) {
+for (my $p = 1; $p < $num + 1; $p++) {
 $x1=$p*5+($p-1)*($d1+$d2+$d3);
 $x2=$x1+$d1;
 $x3=$x2+$d2;

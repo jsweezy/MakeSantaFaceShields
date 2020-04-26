@@ -1,25 +1,20 @@
+// File to stack 3DVerkstan Face Shield Frames
+// OpenSCAD here is a modification of OpenSCAD file 
+// which can be found at:
+// https://gist.github.com/patmandenver/847a0bf508b523487a3708c39c799950
+
 $fn=100;
-num=8;
+num=5;
 heigth=5;
 floor_thickness=1.2;
 bump=0.3;
 cylinder_size=0.8;
 extend_for_testing=0; //Set to 10 to see cylinders
-test=0;  // 0 = no, 1 = yes
+test=1;  // 0 = no, 1 = yes
 
-headband_file="frame.stl";
-baselayer_file="frame_base_layer.stl";
+headband_file="../STLs/frame.stl";
 
 main();
-//baselayer();
-
-module baselayer(){ 
-    difference() {
-    rotate(180)
-    import(baselayer_file, convexity=3); 
-    }
-}
- 
 
 module main(){ 
 
@@ -42,7 +37,7 @@ rotate(180){
       color("blue") mirror_copy() floor(floor_thickness);
       if( test > 0 ) {
         //rotate(180) supports();
-        translate([0,0,heigth]) mirror_copy() bridge(bump)
+        translate([0,0,heigth]) mirror_copy() bridge(bump);
         mirror_copy() cylinder_supports();
       }
   }
