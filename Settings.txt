@@ -19,6 +19,14 @@ Settings by material / manufacturer
 
 * PLA 
 
+  - Overture
+    * Diameter - 1.28 mm
+    * Bed Temp - 60C
+    * Nozzle Standard - 215C
+    * Nozzle Interface - 180C
+    * Nozzle First Layer - 195C
+    * Notes:  Empty interface of 0.2 mm height with interface layer of 0.2 mm height
+
   - HatchBox
    
   - Matterhackers
